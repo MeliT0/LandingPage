@@ -68,6 +68,9 @@ footer {
     object-fit: cover;
   
 }
+.gallery-item:hover {
+    transform: scale(1.1);
+}
 
 
 .gallery-item_big {
@@ -79,6 +82,9 @@ footer {
     height: auto;
 
 }
+.promoimg:hover {
+    transform: scale(1.1);
+}
 
 .gallery2{
     display: grid;
@@ -87,7 +93,9 @@ footer {
     gap: 10px;
     justify-content:center;
     margin: 25px 0;
-
+}
+.gallery-item2:hover {
+    transform: scale(1.1);
 }
 
 .gallery-item2 {
